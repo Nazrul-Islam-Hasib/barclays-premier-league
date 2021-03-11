@@ -5,8 +5,9 @@ This project was done via React, bootstrap and deployed in netlify
 ## Feature
 
 At home page you can see all the teams from English Premier league. Each team is presented in a card. You can view details about each team by clicking explore button on each card.\
-On the dateils page you will see team logo, banner, foundation time, social media link and some details description about the team.
-
+On the dateils page you will see team logo, banner, foundation time, social media link and some details description about the team.\
+All details data are dynamic. Teams image will be changed based on the teams gender.\
+Header is dynamic. Header is changed based on every team logo and banner. On the home page banner is changed and the logo will be replaced by Barclays Premier League title.
 ## Available Scripts
 
 In the project directory, you can run:
