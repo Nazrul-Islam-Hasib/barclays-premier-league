@@ -1,10 +1,21 @@
-# Getting Started with Create React App
+# Barclays Premier League
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was done via React, bootstrap and deployed in netlify
+
+## Feature
+
+At home page you can see all the teams from English Premier league. Each team is presented in a card. You can view details about each team by clicking explore button on each card.\
+On the dateils page you will see team logo, banner, foundation time, social media link and some details description about the team.
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `Live site`
+
+You can click the link to see the live project.\
+Open [Barclays premier League](http://localhost:3000) to view it in the browser.
+
 
 ### `npm start`
 
@@ -39,12 +50,5 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code 
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
