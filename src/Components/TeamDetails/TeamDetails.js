@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Route, useParams } from 'react-router';
+import { useParams } from 'react-router';
 import Header from '../Header/Header';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faYoutube, faTwitter } from "@fortawesome/free-brands-svg-icons"
@@ -29,12 +29,12 @@ const TeamDetails = () => {
     let youTube = [];
     let banner = [];
     teamDetails.map(element => {
-        name.push(element.strTeam)
-        founded.push(element.intFormedYear)
-        country.push(element.strCountry)
-        type.push(element.strSport)
-        gender.push(element.strGender)
-        logo.push(element.strTeamBadge)
+        name.push(element.strTeam);
+        founded.push(element.intFormedYear);
+        country.push(element.strCountry);
+        type.push(element.strSport);
+        gender.push(element.strGender);
+        logo.push(element.strTeamBadge);
         description.push(element.strDescriptionEN);
         teamImg.push(element.strTeamFanart3);
         teamImgAlt.push(element.strTeamFanart4);
@@ -42,6 +42,7 @@ const TeamDetails = () => {
         twitter.push(element.strTwitter);
         youTube.push(element.strYoutube);
         banner.push(element.strStadiumThumb);
+        return [];
     })
     return (
         <div>
@@ -84,13 +85,13 @@ const TeamDetails = () => {
                 <div className="row text-center">
                     <div className="col-md-12">
                         <div className="team-social mb-3">
-                            <a href={`https://${fb}`} target="_blank" id="fb">
+                            <a href={`https://${fb}`} rel="noreferrer" target="_blank" id="fb">
                                 <FontAwesomeIcon icon={faFacebook} />
                             </a>
-                            <a href={`https://${twitter}`} target="_blank" id="twitter">
+                            <a href={`https://${twitter}`} rel="noreferrer" target="_blank" id="twitter">
                                 <FontAwesomeIcon icon={faTwitter} />
                             </a>
-                            <a href={`https://${youTube}`} target="_blank" id="youtube">
+                            <a href={`https://${youTube}`} rel="noreferrer" target="_blank" id="youtube">
                                 <FontAwesomeIcon icon={faYoutube} />
                             </a>
                         </div>
