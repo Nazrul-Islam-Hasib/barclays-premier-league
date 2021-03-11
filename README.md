@@ -15,7 +15,7 @@ In the project directory, you can run:
 ### `Live site`
 
 You can click the link to see the live project.\
-Open [Barclays premier League](http://localhost:3000) to view it in the browser.
+Open [https://nifty-cori-eeb316.netlify.app/](https://nifty-cori-eeb316.netlify.app/) to view it in the browser.
 
 
 ### `npm start`
